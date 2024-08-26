@@ -36,18 +36,18 @@
   flex-grow: 1;
   text-align: center;
   background-color: rgb(223, 241, 247);;
-
+  color: hsl(0, 0%, 33%);
 }
 body{
   font-family: "Poppins", sans-serif;
   border: 0;
 }
-p{
+/* p{
   color: hsl(0, 0%, 33%);
-}
-.GetInTouch{
+} */
+/* .GetInTouch{
   color: hsl(0, 0%, 33%);
-}
+} */
 
 
 .RelevantWorkExperience, .Hackathons, .Projects{
