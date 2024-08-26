@@ -14,9 +14,9 @@ const Navbar=()=>{
                 <a href="/work" className='WorkRoute'>Work Experience </a>
                 <a href="/hackathon" className='HackRoute'>Hackathons/Projects</a> */}
 
-                <a href="/" className='HomeRoute'>Home</a> 
+                {/* <a href="/" className='HomeRoute'>Home</a> 
                 <a href="/work" className='WorkRoute'>Work Experience </a>
-                <a href="/hackathon" className='HackRoute'>Hackathons/Projects</a>
+                <a href="/hackathon" className='HackRoute'>Hackathons/Projects</a> */}
 
             </div>
             

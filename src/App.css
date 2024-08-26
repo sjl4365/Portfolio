@@ -1,42 +1,187 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+
+
+#root, html, body, .Route{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;  
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+}
+
+.Route{
+  width: 100%;
+  height: 100vh;
+  display: flex; 
+  flex-direction:column;
+  background-color:  rgb(223, 241, 247);
+
+}
+.Route>div{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.Route>div>*{
+  flex: 1;
+}
+.Home{
+  display:flex;
+  flex-direction: column;
+  flex-grow: 1;
   text-align: center;
+  background-color: rgb(223, 241, 247);;
+
+}
+body{
+  font-family: "Poppins", sans-serif;
+  border: 0;
+}
+p{
+  color: hsl(0, 0%, 33%);
+}
+.GetInTouch{
+  color: hsl(0, 0%, 33%);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+
+.RelevantWorkExperience, .Hackathons, .Projects{
+  text-align: left;
+  padding: 10px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.RelevantWorkExperience{
+  text-align: left;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.HackathonProject{
+  text-align: left;
+  padding: 10px;
+
+  font-size: 1.5rem;
+}
+.JobOne, .JobTwo, .JobThree{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+.TheScore, .DateOne, .VC, .DateTwo, .Ruii,.DateThree{
+  margin:0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.links{
+  text-align: end;
+  display: inline-end;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+
+.HomeRoute,.WorkRoute,.HackRoute, .ProjRoute{
+  padding-right: 30px;
+  font-size: 1.5rem;}
+
+a{
+  font-weight:100;
+  text-decoration: none;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+.Photo{
+  width: 20rem;
+  height: 22rem;
+  border-radius: 85px;
 }
 
-.card {
-  padding: 2em;
+.LinkedinButton, .ResumeButton{
+  border: 2px solid rgb(164, 196, 100);
+  padding: 20px 50px 20px;
+  border-radius:20px ;
+  box-shadow: 3px 3px rgb(195, 215, 193);
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+  transition: border-color 0.25s;
+}
+.LinkedinButton{
+  margin-right: 35px;
+}
+.ResumeButton{
+  margin-left: 35px;
+}
+.LinkedinButton:hover, .ResumeButton:hover{
+  background-color: rgb(229, 235, 228);
 }
 
-.read-the-docs {
-  color: #888;
+.AboutMe{
+  padding: 1px 20%;
+}
+a:hover{
+  color: red;
+  font-size: 2rem;
+}
+
+.SpecialOne,.SpecialTwo{
+  font-size: 1.5rem;
+}
+
+.Name, .About{
+  color:  hsl(0, 0%, 33%);
+  font-size: 5rem;
+}
+.AboutMe{
+  font-size: 1.5rem;
+}
+.GetInTouch{
+font-size: 1.5rem;
+padding-bottom: 10px;
+}
+
+.WorkExperience, .Hackathon, .Project{
+  font-size: 5rem;
+  color:  hsl(0, 0%, 33%);
+  margin: 0;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.JobOne, .JobTwo, .JobThree, .HackOne, .HackTwo ,.ProjectOne,.ProjectTwo,.ProjectThree{
+  font-size: 1.5rem;
+  color:  hsl(0, 0%, 33%);
+}
+
+.listOne,.listTwo,.listThree{
+  font-size: 1rem;
+}
+.HackListOne ,.HackListTwo{
+  font-size: 1.3rem;
+}
+.ProjectListOne,.ProjectListTwo,.ProjectListThree{
+  font-size: 1.4rem;
+}
+
+.WorkExperience{
+  font-size: 5rem;
+  color:  hsl(0, 0%, 33%);
+  margin: 0;
+}
+.JobOne, .JobTwo, .JobThree{
+  font-size: 1.5rem;
+  color:  hsl(0, 0%, 33%);
+}
+.listOne,.listTwo,.listThree{
+  font-size: 1rem;
 }

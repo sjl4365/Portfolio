@@ -20,7 +20,7 @@ function App() {
 
     // <Router basename='/MyWebsite'>
 
-    <Router basename='/MyWebsite'>
+    <Router >
       <div className='Route'>
         <Navbar/>
         
