@@ -4,10 +4,10 @@ import photo from './photo.jpeg'
 function Home(){
 
     const onButtonClick = () => {
-        const pdfUrl = "/resume.pdf";
+        const pdfUrl = "./resume.pdf";
         const link = document.createElement("a");
         link.href = pdfUrl;
-        link.download = "resume.pdf"; // specify the filename
+        link.download = "resume.pdf"; 
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
