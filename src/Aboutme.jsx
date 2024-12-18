@@ -7,7 +7,7 @@ function Aboutme(){
             In my spare time, I enjoy activiites like swimming, where I was a 
             competitive swimmer in a club for 10 years.
         </p>
-        <p>Intereted in software enginner internhip opportunities for winter 2025</p>
+        <p>Intereted in software enginner internhip opportunities for summer 2025</p>
     
         </div>
         
